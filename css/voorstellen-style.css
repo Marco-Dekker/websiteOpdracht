@@ -1,0 +1,231 @@
+/* 
+
+  Specifieke css voor voorstellen.html 
+
+                                        */
+/* Algemeen */
+
+li {
+  list-style-type: none;
+}
+
+      /* HTML ankers Sub Menu*/
+      #voorstellen {
+        visibility: hidden;
+        padding-top: 180px;
+        margin-top: -180px;
+        display: inline-block;
+      }
+
+      #hobbys {
+        visibility: hidden;
+        padding-top: 80px;
+        margin-top: -80px;
+        display: inline-block;
+      }
+      #werk {
+        visibility: hidden;
+        padding-top: 80px;
+        margin-top: -80px;
+        display: inline-block;
+      }
+      #vakken {
+        visibility: hidden;
+        padding-top: 80px;
+        margin-top: -80px;
+        display: inline-block;
+      }
+      #geslaagd {
+        visibility: hidden;
+        padding-top: 80px;
+        margin-top: -80px;
+        display: inline-block;
+      }
+      #programmeur {
+        visibility: hidden;
+        padding-top: 80px;
+        margin-top: -80px;
+        display: inline-block;
+      }
+      #toekomst {
+        visibility: hidden;
+        padding-top: 80px;
+        margin-top: -80px;
+        display: inline-block;
+      }
+
+
+
+/* Background colors sections */
+
+.vakken {
+    background-color: rgb(213, 228, 233);
+  } 
+  
+ .hobbys{
+    background-color:rgb(213, 228, 233);
+  } 
+    
+ .programmeur {
+    background-color:rgb(213, 228, 233);
+  }
+
+
+  /* Opmaak containers/inhoud */
+
+  /* Animated H1 */
+  .over-mij .voorstellen-intro { 
+    
+    text-align: center;
+    overflow: hidden;  /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black;  /* The typwriter cursor */
+    white-space: nowrap;  /* Keeps the content on a single line */
+    margin: 0 auto;  /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em; /* Adjust as needed  */
+    white-space: nowrap;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    max-width: 520px;
+    margin-top: 40px;
+  } 
+   @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  } 
+
+  table.info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  table.info th {
+    padding-right: 20px;
+    
+  }
+
+  /* --------------------Sectie Info--------------- */
+    
+  /* Over mij voorstellen */
+
+  /* Hobby's */
+
+  .hobbys li{
+    text-align: center;
+    
+  }
+  .hobbys h4 {
+      text-align: center;
+  }
+  .hobbys dl {
+      text-align: center;
+  }
+  .over-mij h3 {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .over-mij .text p{
+    margin: auto;
+    width: 75%;    
+  }
+
+  .bio div {    
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+
+
+  /* Media Sections*/
+
+   .media{
+    width: 75%;
+    margin: auto;
+  }
+  .media a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   }
+   .media img {
+     height: 65%;
+     width: 65%;
+     padding-top: 40px;
+     border-radius: 0 100px 0 100px;    
+   }
+   /* ----------------------------Werk--------------------- */
+   .werk {
+     display: flex;
+     flex-direction: row;
+   }
+   .werk p {
+    padding:10px;
+  } 
+
+  /* Geslaagd -> wat wil ik na de opleiding doen? */
+  .geslaagd {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .geslaagd p {
+    padding:10px;
+  } 
+
+  .vakken p {
+    padding: 10px;
+    text-align: center;
+  }
+  .algmene-Vakken p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+/* Hover effect link on image */ 
+  #vGroep:hover > #vGroep-image {
+    opacity: 50%;
+}
+  #wAanbieder:hover > #wAanbieder-image {
+    opacity: 50%;
+}
+
+.paragraaf-vakken {
+  display: flex;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.paragraaf-vakken p {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  
+}
+.paragraaf-vakken img {
+  border-radius: 60px 0;
+}
+.laptop-img {
+  height: 75%;
+  width: 75%;
+  object-fit: cover;
+}
+.boeken-img {
+  height: 80%;
+  width: 60%;
+  object-fit: cover;
+}
+
+/* Footer */
+
+/* .footer {
+  background-color: rgb(177, 203, 212);
+} */
+

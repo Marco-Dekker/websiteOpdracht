@@ -1,0 +1,294 @@
+
+
+
+
+
+
+
+
+/*------------------- Index.html----------------------*/
+
+
+/*   .container-index h1{
+    text-align: center;
+    margin-bottom: 50px;
+   } */
+ 
+ /*-----------------------------------Algemeen---------------------------*/
+/*  body{
+  margin: 0px;
+  padding: 0;
+  background-color:rgb(240, 246, 248);
+  font-family: cursive;
+} */
+
+/* a {
+  color: black;
+} */
+
+/* .made-by {
+  display: flex;
+  margin: auto;
+} */
+
+ /*html pagina id links*/
+
+/*  #overmij {
+  visibility: hidden;
+  
+ }
+ #hobbys {
+   visibility: hidden;
+ } */
+
+
+
+
+/* ----------------------------------------------Site Header--------------------------------*/
+
+/* .site-header {
+  height: 140px;
+  position: sticky;
+  top: 0;
+  background-color:rgb(240, 246, 248);
+  z-index: 1;
+} */
+
+ /*Menu Buttons*/
+/*  .menu {
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 10px;      
+ }
+ .container-index .menu {
+    margin-bottom: 50px;
+ }
+ .menu a {
+  font-size: larger;
+  border: 2px solid rgb(213, 228, 233);
+  border-radius: 20%;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.subMenu {
+  
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  
+}
+
+a.menu-button-big {
+  margin-top: 10px;
+}
+a.menu-button-big:hover {
+  background-color: rgb(213, 228, 233);
+}
+a.menu-button-small {
+  border: 2px solid rgb(213, 228, 233);  
+  border-radius: 50px;
+  text-decoration: none;
+  margin-right: 20px;  
+  display: block;
+  width: 125px;
+  height: 25px;
+  text-align: center;
+}
+
+a.menu-button-small:hover {
+  background-color: rgb(213, 228, 233);
+} */
+
+/*Tabel*/
+
+/* table.info{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+table.info th {
+  padding-right: 20px;
+  
+} */
+
+
+
+/* ----------------- Voorstellen.html*-----------------*/
+
+/* Header foto */
+/* .full-width {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    padding-bottom: 50px;
+    
+    position: relative;
+    z-index: -1;
+} */
+
+/*  OVERBODIG.container{
+    margin: 50px auto;
+    width: 50%;
+} */
+
+/* OVERBODIG.info {
+  margin-bottom: 20px;
+} */
+/* .over-mij h1 { */
+    
+    /* text-align: center;
+    overflow: hidden; */ /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid orange; */ /* The typwriter cursor */
+    /* white-space: nowrap;  *//* Keeps the content on a single line */
+    /* margin: 0 auto;  *//* Gives that scrolling effect as the typing happens */
+     /* letter-spacing: .15em; Adjust as needed */
+/*     white-space: nowrap;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    max-width: 430px;
+    margin-bottom: 20px;
+  } */
+/*   @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  } */
+  
+
+/*   .over-mij h3 {
+    padding-top: 20px;
+    text-align: center;
+  } */
+/*   .over-mij p {
+    margin: auto;
+    width: 50%;
+    
+  } */
+
+
+/*  .bio div {
+   height: fit-content;
+   padding-top: 20px;
+   padding-bottom: 40px;
+ }
+
+  .hobbys ul{
+   padding-top: 20px;
+   width: 50%;
+   margin: auto;
+   
+ } */
+/*  .media{
+   width: 75%;
+   margin: auto;
+ }
+  .media a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+  .media img {
+    height: 65%;
+    width: 65%;
+    padding-top: 40px;
+    border-radius: 0 100px 0 100px;
+    
+    
+  }
+  .media img:hover {
+    opacity: 50%;
+  } */
+
+/*   .over-mij .text p{
+    width: 75%;
+    
+  }
+  .werk {
+    display: flex;
+    flex-direction: row;
+
+
+  } */
+
+/* .vakken {
+  background-color: rgb(213, 228, 233);
+}
+
+  .hobbys{
+    background-color:rgb(213, 228, 233);
+  }
+
+  .werk p {
+    padding:10px;
+  }
+
+.programmeur {
+  background-color:rgb(213, 228, 233);
+} */
+
+
+
+
+
+
+
+/* ------------------------------------------------Site Footer------------------------------- */
+/* .back-to-top {
+  position: sticky;
+  bottom: 0;  
+  display: flex;
+  float: right;  
+}
+.Email {
+  height: 0px;
+  display: flex;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(213, 228, 233);
+  height: 200px;
+}
+.footer img {
+  
+  display: flex;
+  height: 40px;
+  width: 40px;
+}
+
+.footer img:hover {
+  height: 45px;
+  width: 45px;
+}
+
+.footer p a:hover {
+  height: 0;
+  font-size: 18px;
+} */
+/* .made-by {
+  height: 50px;
+}
+.made-by p{
+  
+  display: flex;
+  margin: auto;
+} */
+
+/* Back to top button */
+
+/* .back-to-top img {
+  
+  height: 30px;
+  width: 30px;
+  
+} */

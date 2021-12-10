@@ -1,0 +1,29 @@
+/* Specifieke css voor index.html */
+.site-header {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  top: 0;
+  z-index: 1;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+/* Main menu Big Button */
+.button-big {
+ border: 3px solid rgb(213, 228, 233);
+ margin-left:20px;
+ padding: 20px 40px;
+ border-radius: 30%;
+ background-color: rgb(240, 246, 248);
+}
+.button-big:hover {
+  background-color: rgb(213, 228, 233);
+}
+/* Back to top button hide */
+.back-to-top {
+  visibility: hidden;
+}
+ 

@@ -1,0 +1,72 @@
+/* Grid manier */
+
+.card-Container {
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 40px;   
+}
+.card {
+    display: flex;
+    height: 300px;
+    width: 200px;
+    text-align: center;    
+    background-color: rgb(170 221 119);
+    border-radius: 30px;   
+}
+
+.card:hover{
+    transform: scale(105%);
+    transition: 0.5s ease;
+}
+/* Card img sizes */
+.html {
+    width: 40px;
+    height: 55px;
+}
+.CSS {
+    width: 60px;
+    height: 60px;
+}
+
+
+/*Flexbox manier*/
+
+/* .card-Container {
+    display: flex;
+    width: 80%;
+    align-content: center;
+    margin: auto;
+}
+.card {
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    background-color:rgb(157, 255, 59);
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.card .btn-bottom {
+    
+        position: relative;
+        bottom: 0;
+        left: 0;
+      
+}
+
+.card-Container a {
+    padding: 5px 10px;
+    background-color: rgb(194, 247, 141);
+    
+    border-radius: 15px;
+}
+.card-Container a:hover {
+    background-color: chartreuse;
+    border: 1px solid rgb(194, 247, 141);
+}
+
+.card-Container img {
+    width: 50px;
+    height: 50px;
+  } */

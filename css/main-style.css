@@ -1,0 +1,192 @@
+
+/* 
+
+    Basis opmaak voor alle pagina's 
+    font, color, background-color, menu's, buttons, links etc...
+
+    Specifieke styling is te vinden in:
+    - index-style.css
+    - spiekbriefje-style.css
+    - voorstellen-style.css
+    - responsive-style.css
+
+     -----------Colors-------- 
+    rgb(177, 203, 212); Darker --> Header, Footer
+    
+    rgb(213, 228, 233); Dark --> Sections
+    rgb(240, 246, 248); Light --> Background
+
+    rgb(157, 255, 59); Accent green
+                            
+  -----------Fonts-------- 
+    font-family: cursive;
+                            */                            
+
+
+body {
+  /* display:inline-block; */
+  
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  background-color: rgb(240, 246, 248)
+  
+}
+.index {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+a {
+
+  text-decoration: none;
+  color: black;
+}
+h4 {
+  margin-top: auto;
+}
+
+
+
+/* ---------------------------------Header------------------------------- */
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  position: sticky;
+  top: 0;
+  background-color:rgb(177, 203, 212);
+  
+  z-index: 1;
+}
+
+  /* ------------------------------------Menu's--------------------------- */
+      /*Main Menu*/
+
+
+.menu {
+  display: flex;
+}
+          /* Main menu Big Button */
+
+  .button-big {
+  border: 3px solid rgb(240, 246, 248);
+  background-color:rgb(177, 203, 212);
+  padding: 20px 40px;
+  border-radius: 30%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ }
+ .button-big:hover {
+   background-color: rgb(240, 246, 248);
+   /* border: 2px solid rgb(240, 246, 248); */
+ }
+
+     /*Sub Menu*/
+
+.subMenu {
+  display: flex;
+  flex-direction: row;  
+}
+
+        /*Sub Menu Small Buttons*/
+
+.button-small {  
+  border: 2px solid rgb(240, 246, 248);
+  margin-left: 20px;
+  border-radius: 70% 20px;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  }
+
+  .button-small:hover {
+    background-color: rgb(240, 246, 248);
+    outline: 2px solid rgb(240, 246, 248);
+  }
+
+/* Banner */
+
+.full-width {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* ---------------------------Inhoud Pagina------------------------------ */
+
+
+
+
+
+
+
+/* ------------------------------------------------Site Footer------------------------------- */
+
+/* Main Footer */
+.footer {   
+  background-color: rgb(177, 203, 212);
+  position: relative;
+  font-family: cursive;
+}
+
+.footer p {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.footer-container{
+  height: 180px;
+  align-content: center;
+}
+
+
+.footer-container h4 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* Email */
+.footer-container a:hover {
+  height: 23px;
+  font-size: 18px;
+}
+
+.footer-container img{  
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-container img:hover{    
+  width: 44px;
+  height: 44px;
+}
+
+/* Sub Footer */
+.subFooter {  
+  overflow: hidden;
+  /* background-color: rgb(213, 228, 233); */
+  text-align: center;
+  margin-left: 110px;
+}
+
+  /* Back to top button */
+
+.back-to-top img {    
+    display: flex;
+    height: 30px;
+    width: 30px;    
+  }
+
+  .back-to-top a{
+    position: sticky;
+    bottom:0; 
+    float: right;
+    z-index: 1;
+    
+  }
