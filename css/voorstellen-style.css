@@ -68,9 +68,14 @@ li {
     
  .programmeur {
     background-color:rgb(213, 228, 233);
-    text-align: center;
-    
-  }
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
+    .programmeur p {
+      padding-left: 250px;
+      padding-right: 250px;
+    }
 
 
   /* Opmaak containers/inhoud */
@@ -144,23 +149,35 @@ li {
 
 
 
-  /* Media Sections*/
+  /* Media Sections */
 
-   .media{
-    width: 25%;
+   .media-werk{
+    width: 35%;
     margin: auto;
   }
-  .media a{
+  .media-werk a{
    display: flex;
    flex-direction: column;
    align-items: center;
    }
-   .media img {
+   .media-werk img {
      height: 65%;
      width: 65%;
      padding-top: 40px;
      border-radius: 0 100px 0 100px;    
    }
+   .media-geslaagd {
+     width: 50%;
+     
+   }
+   .media-geslaagd img{
+    margin-top: 50px;
+    height: 65%;
+    width: 65%;
+    border-radius: 10px 20% 10px 20%;
+   }
+
+
    /* ----------------------------Werk--------------------- */
    .werk {
      display: flex;
@@ -219,6 +236,9 @@ li {
   .geslaagd {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 50px;
   }
   .geslaagd p {
     padding:10px;
