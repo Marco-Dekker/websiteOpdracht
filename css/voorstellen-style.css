@@ -68,6 +68,8 @@ li {
     
  .programmeur {
     background-color:rgb(213, 228, 233);
+    text-align: center;
+    color: blue;
   }
 
 
@@ -168,15 +170,6 @@ li {
     padding:10px;
   } 
 
-  /* Geslaagd -> wat wil ik na de opleiding doen? */
-  .geslaagd {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .geslaagd p {
-    padding:10px;
-  } 
-
   .vakken p {
     padding: 10px;
     text-align: center;
@@ -222,10 +215,14 @@ li {
   width: 60%;
   object-fit: cover;
 }
+  /* Geslaagd -> wat wil ik na de opleiding doen? */
+  .geslaagd {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .geslaagd p {
+    padding:10px;
+  } 
 
-/* Footer */
-
-/* .footer {
-  background-color: rgb(177, 203, 212);
-} */
+  /* Programmeur -> Waarom wil ik programmeur worden */
 
