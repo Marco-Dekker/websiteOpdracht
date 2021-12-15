@@ -68,14 +68,9 @@ li {
     
  .programmeur {
     background-color:rgb(213, 228, 233);
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+
     }
-    .programmeur p {
-      padding-left: 250px;
-      padding-right: 250px;
-    }
+
 
 
   /* Opmaak containers/inhoud */
@@ -149,8 +144,8 @@ li {
 
 
 
-  /* Media Sections */
-
+  /* style voor images */
+  /* werk */
    .media-werk{
     width: 35%;
     margin: auto;
@@ -161,22 +156,46 @@ li {
    align-items: center;
    }
    .media-werk img {
-     height: 65%;
-     width: 65%;
-     padding-top: 40px;
-     border-radius: 0 100px 0 100px;    
+    height: 65%;
+    width: 65%;
+    padding-top: 40px;
+    border-radius: 0 100px 0 100px;    
    }
+   /* geslaagd */
    .media-geslaagd {
      width: 50%;
      
    }
    .media-geslaagd img{
     margin-top: 50px;
-    height: 65%;
-    width: 65%;
+    height: 300px;
+    width: 350px;
     border-radius: 10px 20% 10px 20%;
    }
+   /* programmeur */
+   .media-programmeur {
+    width: 50%;
+    
+  }
+  .media-programmeur img{
+   margin-top: 50px;
+   margin-left: 150px;
+   height: 300px;
+   width: 350px;
+   border-radius: 10px 20% 10px 20%;
+  }
 
+  /* toekomst */
+  .media-toekomst {
+    width: 50%;
+    
+  }
+  .media-toekomst img{
+   margin-top: 50px;
+   height: 300px;
+   width: 350px;
+   border-radius: 10px 20% 10px 20%;
+  }
 
    /* ----------------------------Werk--------------------- */
    .werk {
@@ -240,9 +259,31 @@ li {
     margin: auto;
     padding-bottom: 50px;
   }
-  .geslaagd p {
-    padding:10px;
-  } 
+
 
   /* Programmeur -> Waarom wil ik programmeur worden */
 
+.programmeur {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.programmeur p {
+  padding: 10px;
+}
+
+
+/* Toekomst */
+.toekomst {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.toekomst p {
+  padding: 10px;
+}
