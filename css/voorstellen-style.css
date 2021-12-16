@@ -68,7 +68,9 @@ li {
     
  .programmeur {
     background-color:rgb(213, 228, 233);
-  }
+
+    }
+
 
 
   /* Opmaak containers/inhoud */
@@ -142,38 +144,65 @@ li {
 
 
 
-  /* Media Sections*/
-
-   .media{
-    width: 75%;
+  /* style voor images */
+  /* werk */
+   .media-werk{
+    width: 35%;
     margin: auto;
   }
-  .media a{
+  .media-werk a{
    display: flex;
    flex-direction: column;
    align-items: center;
    }
-   .media img {
-     height: 65%;
-     width: 65%;
-     padding-top: 40px;
-     border-radius: 0 100px 0 100px;    
+   .media-werk img {
+    height: 65%;
+    width: 65%;
+    padding-top: 40px;
+    border-radius: 0 100px 0 100px;    
    }
+   /* geslaagd */
+   .media-geslaagd {
+     width: 50%;
+     
+   }
+   .media-geslaagd img{
+    margin-top: 50px;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px 20% 10px 20%;
+   }
+   /* programmeur */
+   .media-programmeur {
+    width: 50%;
+    
+  }
+  .media-programmeur img{
+   margin-top: 50px;
+   margin-left: 150px;
+   height: 300px;
+   width: 350px;
+   border-radius: 10px 20% 10px 20%;
+  }
+
+  /* toekomst */
+  .media-toekomst {
+    width: 50%;
+    
+  }
+  .media-toekomst img{
+   margin-top: 50px;
+   height: 300px;
+   width: 350px;
+   border-radius: 10px 20% 10px 20%;
+  }
+
    /* ----------------------------Werk--------------------- */
    .werk {
      display: flex;
      flex-direction: row;
    }
    .werk p {
-    padding:10px;
-  } 
-
-  /* Geslaagd -> wat wil ik na de opleiding doen? */
-  .geslaagd {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .geslaagd p {
     padding:10px;
   } 
 
@@ -222,10 +251,39 @@ li {
   width: 60%;
   object-fit: cover;
 }
+  /* Geslaagd -> wat wil ik na de opleiding doen? */
+  .geslaagd {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 50px;
+  }
 
-/* Footer */
 
-/* .footer {
-  background-color: rgb(177, 203, 212);
-} */
+  /* Programmeur -> Waarom wil ik programmeur worden */
 
+.programmeur {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.programmeur p {
+  padding: 10px;
+}
+
+
+/* Toekomst */
+.toekomst {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.toekomst p {
+  padding: 10px;
+}
