@@ -32,6 +32,12 @@ body {
   background-color: rgb(240, 246, 248)
   
 }
+
+.container-voorstellen {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .index {
   display: flex;
   flex-direction: column;
